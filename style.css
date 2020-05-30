@@ -130,18 +130,22 @@ text-decoration: none;
 }
 #box1-img{
 	width: 100%;
+	position: relative;
+	z-index: 1000
+	
 }
 #box1-title b{
 	font-size: 50px;
 }
 #box1-title{
 	position: absolute;
-	left: 0;
+	left: 15%;
 	top: 0;
 	color: white;
 	font-size: 30px;
 	min-width: 50%;
 	text-align: center;
+	z-index: 1001;
 }
 .box1-title-btn{
 display: inline-block;
@@ -550,4 +554,10 @@ width: 100%;
 }
 .small:hover .box8-cell-comment{
 	transform: translateY(-100%);
+}
+#box1-img-logo{
+ 	positiion: absolute;
+	top: 50%;
+	left: 50%; 
+z-index: 1001;
 }
